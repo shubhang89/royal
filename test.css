@@ -1,0 +1,60 @@
+img {
+    width: 100%;
+}
+
+.content {
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 25%;
+}
+
+h2 {
+    text-align: center;
+    word-spacing: 10px;
+}
+
+#name {
+    margin-left: 5%;
+}
+
+input {
+    width: 40%;
+    height: 28px;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: .1px solid black;
+}
+
+#butto {
+    margin-left: 15%;
+    border: .1px solid black;
+    background-color: white;
+    height: 32px;
+    width: 30%;
+    border-radius: 25px;
+}
+
+#dis {
+    margin-left: 20px;
+}
+
+#check {
+    width: 13px;
+}
+
+
+#sub {
+    width: 100px;
+    height: 29px;
+    margin-left: 40%;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.whole {
+    background-image: url(sky.jpg);
+    background-size: 100%;
+}

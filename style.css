@@ -1,0 +1,268 @@
+.whole {
+    width: 100%;
+    height: 730px;
+}
+
+.box1 {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box1 video {
+    width: 145px;
+    height: 255px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: -40px;
+}
+
+.about p {
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+/* ------------------------------- */
+.location {
+    height: 50px;
+    background-color: rgb(197, 196, 196);
+    display: flex;
+    align-items: center;
+}
+
+.location a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* ------------------------ */
+.container {
+    border: 5px solid grey;
+    border-radius: 25px;
+    width: 50%;
+    height: 350px;
+    background-image: url(black.png);
+    background-size: 100%;
+    margin-left: 45%;
+}
+
+nav {
+    background-color: black;
+    margin-top: -40px;
+    height: 55px;
+}
+
+h3 {
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+
+.colour-select div {
+    background: #333;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.colour-select {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid red;
+    border-radius: 20px;
+    height: 80px;
+    margin-top: -220px;
+    width: 39%;
+    margin-left: 15px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-left: 9px;
+}
+
+
+.colour-select #black {
+    background: #28282B;
+}
+
+.colour-select #blue {
+    background: #69cfef;
+}
+
+.colour-select #brown {
+    background: #e5bf93;
+}
+
+.colour-select #hblack {
+    background: #606160;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+    margin-top: -41.5px;
+}
+
+.pic img {
+    width: 30%;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+    background-color: black;
+    font-size: 35px;
+}
+
+.bar {
+    height: 45px;
+    background-color: black;
+}
+
+.bar h4 {
+    color: white;
+    font-size: 35px;
+    margin-left: 15px;
+}
+
+.main {
+    height: 200px;
+    margin-top: -40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main .bx1,
+.bx2,
+.bx3,
+.bx4,
+.bx5 {
+    border: 1px solid blue;
+    width: 20%;
+}
+
+.bar1 {
+    height: 45px;
+    background-color: black;
+}
+
+.bar1 h4 {
+    color: white;
+    font-size: 35px;
+    margin-left: 15px;
+    margin-top: 250px;
+}
+
+/* ----------------customer review------------------ */
+.top {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 5px 3px #00000029;
+    background-color: #F7F7F7;
+    align-items: center;
+}
+
+.top img {
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    margin-left: 25px;
+}
+
+.top p {
+    margin-left: 37px;
+    color: orangered;
+    font-weight: 550;
+}
+
+.middle {
+    height: 52%;
+}
+
+.cen {
+    text-align: center;
+}
+
+.last {
+
+    height: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 5px 3px #00000029;
+    background-color: #F7F7F7;
+}
+
+.last img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/*=================== Accessories--------- */
+.main1 {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    margin-top: -40px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+    border: 1px solid red;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alo {
+    cursor: pointer;
+    width: 95px;
+}
+
+.hu {
+    color: brown;
+    font-weight: 550;
+    font-size: 20px;
+    background-color: #e4e1e1;
+    cursor: pointer;
+
+}
+
+.ho {
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.more a {
+    color: red;
+    margin-left: 93%;
+    text-decoration: none;
+}
+
+/*------------------------ copyright ---------------------*/
+.copy {
+    height: 30px;
+    text-align: center;
+    background-color: rgb(202, 218, 218);
+    word-spacing: 5px;
+}
+
+#cust {
+    margin-top: 330px;
+}
