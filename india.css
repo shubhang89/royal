@@ -1,0 +1,35 @@
+.whole {
+    background-color: rgb(161, 161, 161);
+    width: 27%;
+    height: 290px;
+    margin-left: 790px;
+    margin-top: 60px;
+}
+
+.row1 {
+    height: 145px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sub1,
+.sub2,
+.sub3 {
+    box-shadow: .5px .5px .5px black;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 55%;
+    height: 30%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+h3 {
+    cursor: pointer;
+}

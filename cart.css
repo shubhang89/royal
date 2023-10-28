@@ -1,0 +1,42 @@
+.whole {
+    background-color: rgb(209, 207, 207);
+    width: 30%;
+    margin-left: 70%;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 950;
+    color: brown;
+}
+
+p {
+    text-align: center;
+    margin-top: -1px;
+}
+
+.sub1 {
+    background-color: white;
+    box-shadow: 0px 2px 2px grey;
+    height: 200px;
+}
+
+.pic {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.click {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.click button {
+    width: 100px;
+    height: 30px;
+    color: black;
+    background-color: orange;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,102 @@
+.first {
+    height: 540px;
+    background-image: url(pic.png);
+    background-size: 100%;
+}
+
+nav {
+    height: 60px;
+    background-color: rgb(187, 186, 186);
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.cont {
+    width: 40%;
+    margin-left: 60%;
+    height: 275px;
+    margin-top: 100px;
+}
+
+.cont h2 {
+    text-align: center;
+}
+
+.cont input {
+    width: 214px;
+    margin: 15px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 100px;
+}
+
+.cont button {
+    width: 75px;
+    height: 29px;
+    border-radius: 10px;
+    border: .1px solid black;
+    color: black;
+    margin-left: 100px;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.cont a {
+    text-decoration: none;
+    margin-left: 70px;
+    color: white;
+    font-weight: 600;
+}
+
+.second {
+    height: 600px;
+    background-image: url(pic1.jpg);
+    background-size: 100%;
+}
+
+.second h3 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.third {
+
+    height: 150px;
+    width: 36%;
+    margin-left: 32%;
+    margin-top: 355px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#acc {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.third p {
+    color: black;
+    font-weight: 999;
+}
+
+.third button {
+    width: 147px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+    cursor: pointer;
+}
